@@ -1,0 +1,16 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+# py extence
+*.pyc
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ss]cripts
+pyvenv.cfg
+pip-selfcheck.json
+
+/neo4j-local-test-server
+.DS_Store
+.idea
+lib
+venv

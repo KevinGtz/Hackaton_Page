@@ -1,0 +1,20 @@
+application: my-app
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /bower_components
+  static_dir: bower_components
+  secure: always
+
+- url: /.*
+  script: webapp.main.app
+  secure: always
+
+libraries:
+- name: jinja2
+  version: "2.6"
+- name: webapp2
+  version: "2.5.2"
